@@ -1,0 +1,83 @@
+.home-comm {
+  .com-use-body {
+    i {
+      display: inline-block;
+      width: 34px;
+      height: 34px;
+      margin-top: 20px;
+    }
+    p {
+      margin: 5px 0 0 0;
+      font-size: 16px;
+    }
+  }
+  .com-use {
+    width: 100%;
+    .com-use-body {
+      cursor: pointer;
+      width: 24.5%;
+      min-width: 24%;
+      max-width: 33.9%;
+      height: 110px;
+      text-align: center;
+      font-size: 14px;
+      border: 1px solid #eee;
+      border-bottom: 0;
+      img {
+        margin-top: 20px;
+        width: 56px;
+        height: 56px;
+        
+      }
+    }
+    .com-use-body:nth-of-type(4n) {
+      border-left: 0;
+      border-right: 0;
+    }
+    .com-use-body:nth-of-type(4n+1) {
+      border-right: 0;
+    }
+    .com-use-body:hover {
+      background: #eef3f7;
+    }
+  }
+  .color-use{
+    color: #ea803a;
+  }
+  .pull-left {
+    float: left;
+  }
+  .notice-title{
+    text-align: left;
+    padding: 12px;
+    background: #eef3f7;
+    height: 16px;
+    line-height: 16px;
+    .iconfont {
+      color: #38b6e6;
+      font-weight: bold;
+      float: left;
+      margin-left: 5px;
+    }
+    i {
+      font-size: 15px;
+      vertical-align: middle;
+    }
+    span {
+      font-size: 16px;
+      margin-left: 5px;
+    }
+  }
+  .com-icon {
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 35px;
+    line-height: 35px;
+    right: 0;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 999;
+    border-left: 1px solid #eee;
+  }
+}
